@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline solid red;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: cornflowerblue;
+}
+.app{
+    margin: 10px auto;
+    border: 3px solid #ccc;
+    width: 500px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.add{
+    display: flex;
+    justify-content: center;    
+    margin-top: 10px;
+    gap: 6px;
+}
+.add input{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+}
+.add button{
+    width: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: limegreen;
+    border-radius: 10px;
+}
+.otherbtn button{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 23px;
+    width: 90px;
+    color: white;
+    font-size: 14px;
+    background-color: cadetblue;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.completed{
+    text-decoration: line-through;
+}
+.list h2{
+    font-size: 25px;
+    margin-left: 10px;
+    text-decoration: underline solid black;
+}
+.list ul li{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.list input[type="checkbox"]{
+    margin-right: 10px;
+    position: relative;
+    height: 14px;
+    width: 14px;
+}
+.list button{
+    margin-left: 10px;
+    height: 22px;
+    width: 60px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    background-color: cadetblue;
+}
